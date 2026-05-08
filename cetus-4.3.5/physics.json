@@ -1710,8 +1710,7 @@
             "<b>Component</b>: Medium Deflector Musculature",
             "<b>Component</b>: Medium Deflectors",
             "<b>Component</b>: Small Deflector Musculature",
-            "<b>Component</b>: Small Deflectors",
-            "Army Health +5%"
+            "<b>Component</b>: Small Deflectors"
           ],
           "is_dangerous": false,
           "is_rare": false,

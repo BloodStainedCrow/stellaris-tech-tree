@@ -2123,7 +2123,9 @@
             "(×<b style='color:lime'>1.5</b>) Has Enigmatic Engineering Ascension Perk",
             "(×<b style='color:lime'>2.0</b>) Any Owned Planet<br/>    •   Is Synaptic Lathe<br/>    •   Pop count is greater than 5000"
           ],
-          "potential": [],
+          "potential": [
+            "One must be true\n    •   Has Technology: Machine Template System\n    •   Has Technology: Machine Template System"
+          ],
           "children": [
             {
               "key": "tech_fe_assembly_2",
@@ -4032,7 +4034,9 @@
             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic"
           ],
-          "potential": [],
+          "potential": [
+            "One must be true\n    •   Has Technology: Harbingers\n    •   Has Technology: Stingers\n    •   Has Technology: Fusion Missiles"
+          ],
           "children": [
             {
               "key": "tech_swarmer_missiles_2",
@@ -5901,6 +5905,7 @@
             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition"
           ],
           "potential": [
+            "One must be true\n    •   Has Technology: Battleships\n    •   Has Technology: Advanced Stinger Development",
             "Has DLC Apocalypse"
           ],
           "children": [
@@ -6340,7 +6345,9 @@
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [],
-          "potential": [],
+          "potential": [
+            "One must be true\n    •   Has Technology: Antimatter Missiles\n    •   Has Technology: Whirlwind Missiles"
+          ],
           "children": [],
           "is_event": false,
           "source": "vanilla"
@@ -6364,7 +6371,9 @@
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [],
-          "potential": [],
+          "potential": [
+            "One must be true\n    •   Has Technology: Antimatter Missiles\n    •   Has Technology: Whirlwind Missiles"
+          ],
           "children": [],
           "is_event": false,
           "source": "vanilla"

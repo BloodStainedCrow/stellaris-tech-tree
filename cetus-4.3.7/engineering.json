@@ -4403,8 +4403,8 @@
                   "name": "Deep Space Citadel",
                   "description": "A Deep Space Citadel is an armored Starbase designed for maximum defense within a stellar gravity well.",
                   "area": "society",
-                  "base_factor": 0.25,
-                  "base_weight": 12.5,
+                  "base_factor": 2.0,
+                  "base_weight": 100.0,
                   "category": "Military Theory",
                   "cost": 6000,
                   "feature_unlocks": [
@@ -4429,7 +4429,6 @@
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic",
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2",
-                    "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                     "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                     "(×<b style='color:lime'>6.0</b>) Has Galactic Force Projection Ascension Perk",
                     "(×<b style='color:lime'>6.0</b>) Has Eternal Vigilance Ascension Perk"
@@ -4702,8 +4701,8 @@
                               "name": "Science Nexus",
                               "description": "The research labs and databanks of a Science Nexus generate an immense flow of raw, undiluted science.",
                               "area": "physics",
-                              "base_factor": 0.25,
-                              "base_weight": 5.0,
+                              "base_factor": 2.0,
+                              "base_weight": 40.0,
                               "category": "Computing",
                               "cost": 24000,
                               "feature_unlocks": [
@@ -4729,13 +4728,10 @@
                               "weight_modifiers": [
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2",
-                                "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>9.0</b>) Has Technological Ascendancy Ascension Perk"
                               ],
-                              "potential": [
-                                "Has DLC Utopia"
-                              ],
+                              "potential": [],
                               "children": [],
                               "is_event": false,
                               "source": "vanilla"
@@ -4745,8 +4741,8 @@
                               "name": "Sentry Array",
                               "description": "The stages of the Sentry Array gradually expand sensor range, eventually covering the entire galaxy.",
                               "area": "physics",
-                              "base_factor": 0.25,
-                              "base_weight": 5.0,
+                              "base_factor": 2.0,
+                              "base_weight": 40.0,
                               "category": "Computing",
                               "cost": 24000,
                               "feature_unlocks": [
@@ -4772,13 +4768,10 @@
                               "weight_modifiers": [
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2",
-                                "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Enigmatic Engineering Ascension Perk"
                               ],
-                              "potential": [
-                                "Has DLC Utopia"
-                              ],
+                              "potential": [],
                               "children": [],
                               "is_event": false,
                               "source": "vanilla"
@@ -4788,8 +4781,8 @@
                               "name": "Strategic Coordination Center",
                               "description": "A facility synchronizing the national Starbase network, augmenting defensive and offensive capabilities.",
                               "area": "society",
-                              "base_factor": 0.25,
-                              "base_weight": 5.0,
+                              "base_factor": 2.0,
+                              "base_weight": 40.0,
                               "category": "Military Theory",
                               "cost": 24000,
                               "feature_unlocks": [
@@ -4816,7 +4809,6 @@
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2",
-                                "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Eternal Vigilance Ascension Perk"
                               ],
@@ -4832,8 +4824,8 @@
                               "name": "Mega Shipyard",
                               "description": "A zero-G construction yard of overwhelming proportion, capable of performing several space ship assembly projects simultaneously.",
                               "area": "society",
-                              "base_factor": 0.25,
-                              "base_weight": 5.0,
+                              "base_factor": 2.0,
+                              "base_weight": 40.0,
                               "category": "Military Theory",
                               "cost": 24000,
                               "feature_unlocks": [
@@ -4860,7 +4852,6 @@
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2",
-                                "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Galactic Force Projection Ascension Perk"
                               ],
@@ -4876,8 +4867,8 @@
                               "name": "Interstellar Assembly",
                               "description": "A meeting place for galactic powers, increasing immigration attraction and global opinion of us.",
                               "area": "society",
-                              "base_factor": 0.25,
-                              "base_weight": 5.0,
+                              "base_factor": 2.0,
+                              "base_weight": 40.0,
                               "category": "Statecraft",
                               "cost": 24000,
                               "feature_unlocks": [
@@ -4905,7 +4896,6 @@
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Xenophile Ethic<br/>    •   Has Fanatic Xenophile Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2",
-                                "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk"
                               ],
                               "potential": [
@@ -4920,8 +4910,8 @@
                               "name": "Mega Art Installation",
                               "description": "An artistic beacon on a stellar scale, this installation inspires and represents the spirit of its creators.",
                               "area": "society",
-                              "base_factor": 0.25,
-                              "base_weight": 5.0,
+                              "base_factor": 2.0,
+                              "base_weight": 40.0,
                               "category": "Statecraft",
                               "cost": 24000,
                               "feature_unlocks": [
@@ -4949,7 +4939,6 @@
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Pacifist Ethic<br/>    •   Has Fanatic Pacifist Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2",
-                                "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has One Vision Ascension Perk"
                               ],
@@ -5045,8 +5034,7 @@
                     "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Finished Tradition"
                   ],
                   "potential": [
-                    "Does NOT have Origin Wilderness",
-                    "One must be true\n    •   One must be true\n\t    •   Has Origin Void Dwellers\n\t    •   Has Origin Voidforged\n    •   Has Origin Knights of the Toxic God\n    •   Has DLC Utopia"
+                    "Does NOT have Origin Wilderness"
                   ],
                   "children": [
                     {
@@ -5085,8 +5073,7 @@
                         "(×<b style='color:lime'>10.0</b>) One must be true<br/>    •   Has Voidborne Ascension Perk<br/>    •   One must be true<br/>\t    •   Has Origin Void Dwellers<br/>\t    •   Has Origin Voidforged"
                       ],
                       "potential": [
-                        "Does NOT have Origin Wilderness",
-                        "One must be true\n    •   One must be true\n\t    •   Has Origin Void Dwellers\n\t    •   Has Origin Voidforged\n    •   Has DLC Utopia"
+                        "Does NOT have Origin Wilderness"
                       ],
                       "children": [
                         {
@@ -5125,8 +5112,7 @@
                             "(×<b style='color:lime'>10.0</b>) One must be true<br/>    •   Has Voidborne Ascension Perk<br/>    •   One must be true<br/>\t    •   Has Origin Void Dwellers<br/>\t    •   Has Origin Voidforged"
                           ],
                           "potential": [
-                            "Does NOT have Origin Wilderness",
-                            "One must be true\n    •   One must be true\n\t    •   Has Voidborne Ascension Perk\n\t    •   One must be true\n\t\t    •   Has Origin Void Dwellers\n\t\t    •   Has Origin Voidforged\n    •   Has DLC Utopia"
+                            "Does NOT have Origin Wilderness"
                           ],
                           "children": [],
                           "is_event": false,
@@ -6038,7 +6024,7 @@
                   "potential": [
                     "Has DLC Apocalypse",
                     "Has Colossus Project Ascension Perk",
-                    "One must be true\n    •   All must be false\n\t    •   Has Spiritualist Ethic\n\t    •   Has Fanatic Spiritualist Ethic\n    •   All must be false\n\t    •   All must be true\n\t\t    •   Does NOT have DLC Utopia\n\t\t    •   Has Technology: Telepathy\n\t    •   All must be true\n\t\t    •   One must be true\n\t\t\t    •   Has DLC Utopia\n\t\t\t    •   Has DLC Shadows of the Shroud\n\t\t    •   One must be true\n\t\t\t    •   Has Mind Over Matter Ascension Perk\n\t\t\t    •   Has Origin Teachers of the Shroud\n\t\t\t    •   Has Origin Endbringers\n\t\t\t    •   One must be true\n\t\t\t\t    •   Has Government Civic: Chosen\n\t\t\t\t    •   Has Government Civic: Chosen Many\n\t\t\t\t    •   Has Government Civic: Apostle Network\n\t\t\t\t    •   Has Government Civic: Chosen Executives\n\t\t\t    •   All must be true\n\t\t\t\t    •   Has Origin Shroud-Forged\n\t\t\t\t    •   Finished the Forged by the Shroud situation by supporting the Shroud",
+                    "One must be true\n    •   All must be false\n\t    •   Has Spiritualist Ethic\n\t    •   Has Fanatic Spiritualist Ethic\n    •   NOT One must be true\n\t    •   Has Mind Over Matter Ascension Perk\n\t    •   Has Origin Teachers of the Shroud\n\t    •   Has Origin Endbringers\n\t    •   One must be true\n\t\t    •   Has Government Civic: Chosen\n\t\t    •   Has Government Civic: Chosen Many\n\t\t    •   Has Government Civic: Apostle Network\n\t\t    •   Has Government Civic: Chosen Executives\n\t    •   All must be true\n\t\t    •   Has Origin Shroud-Forged\n\t\t    •   Finished the Forged by the Shroud situation by supporting the Shroud",
                     "All must be false\n    •   Has Pacifist Ethic\n    •   Has Fanatic Pacifist Ethic"
                   ],
                   "children": [],
@@ -6114,7 +6100,7 @@
                     "Has DLC Apocalypse",
                     "Has Colossus Project Ascension Perk",
                     "One must be true\n    •   Has Spiritualist Ethic\n    •   Has Fanatic Spiritualist Ethic",
-                    "One must be true\n    •   All must be true\n\t    •   Does NOT have DLC Utopia\n\t    •   Has Technology: Telepathy\n    •   All must be true\n\t    •   One must be true\n\t\t    •   Has DLC Utopia\n\t\t    •   Has DLC Shadows of the Shroud\n\t    •   One must be true\n\t\t    •   Has Mind Over Matter Ascension Perk\n\t\t    •   Has Origin Teachers of the Shroud\n\t\t    •   Has Origin Endbringers\n\t\t    •   One must be true\n\t\t\t    •   Has Government Civic: Chosen\n\t\t\t    •   Has Government Civic: Chosen Many\n\t\t\t    •   Has Government Civic: Apostle Network\n\t\t\t    •   Has Government Civic: Chosen Executives\n\t\t    •   All must be true\n\t\t\t    •   Has Origin Shroud-Forged\n\t\t\t    •   Finished the Forged by the Shroud situation by supporting the Shroud"
+                    "One must be true\n    •   Has Mind Over Matter Ascension Perk\n    •   Has Origin Teachers of the Shroud\n    •   Has Origin Endbringers\n    •   One must be true\n\t    •   Has Government Civic: Chosen\n\t    •   Has Government Civic: Chosen Many\n\t    •   Has Government Civic: Apostle Network\n\t    •   Has Government Civic: Chosen Executives\n    •   All must be true\n\t    •   Has Origin Shroud-Forged\n\t    •   Finished the Forged by the Shroud situation by supporting the Shroud"
                   ],
                   "children": [],
                   "is_event": false,
@@ -6390,7 +6376,7 @@
           "feature_unlocks": [
             "<b>Feature : </b>Auto-Research Technologies",
             "<b>Feature : </b>Science Ship Automation",
-            "<b>Ship Size</b>: Science Ship"
+            "<b>Ship Size</b>: Science"
           ],
           "is_dangerous": false,
           "is_rare": false,

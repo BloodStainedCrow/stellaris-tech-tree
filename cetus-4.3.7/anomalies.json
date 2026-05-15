@@ -366,6 +366,44 @@
     "source": "vanilla"
   },
   {
+    "key": "tech_cloaking_psi",
+    "name": "Psi-Phase Field Generator",
+    "description": "Psi-Phase Field Generators focus the psionic potential of the ship's crew to partially phase the vessel into the Shroud. This allows the ship to remain undetected by all but the best sensor arrays, though what the crew may be forced to witness is better left unsaid.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 25.0,
+    "category": "Psionics",
+    "cost": 24000,
+    "feature_unlocks": [
+      "<b>Component</b>: Psi-Phase Field Generator"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_psi_jump_drive_1"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Psi Jump Drive",
+        "key": "tech_psi_jump_drive_1"
+      }
+    ],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Any Leader in council has trait Expertise: Psionics 1<br/>    •   Any Leader in council has trait Curator 1<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
+      "(×<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition"
+    ],
+    "potential": [
+      "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic",
+      "Has DLC First Contact Story Pack"
+    ],
+    "children": [],
+    "is_event": true,
+    "is_gestalt": false,
+    "source": "vanilla"
+  },
+  {
     "key": "tech_combat_computers_bio_integration",
     "name": "Combat Computer Bio-integration",
     "description": "We can develop specialized neurochips to influence the behavior of space fauna involved in wide scale fleet combat.",
@@ -1093,9 +1131,7 @@
       }
     ],
     "weight_modifiers": [],
-    "potential": [
-      "Has DLC Utopia"
-    ],
+    "potential": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -1852,6 +1888,47 @@
     "source": "vanilla"
   },
   {
+    "key": "tech_psi_jump_drive_1",
+    "name": "Psi Jump Drive",
+    "description": "The Psi Jump Drive harnesses the psi energies emitted by the crew to force the vessel through the very fabric of reality, instantly \"jumping\" vast distances.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Psionics",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>Component</b>: Psi Jump Drive",
+      "<b>Component</b>: Psionic Jump Organ",
+      "<b>Feature : </b>Jump Drive Travel"
+    ],
+    "is_dangerous": true,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_precognition_interface"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Precognition Interface",
+        "key": "tech_precognition_interface"
+      }
+    ],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Any Leader in council has trait Expertise: Psionics 1<br/>    •   Any Leader in council has trait Curator 1<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
+      "(×<b style='color:lime'>1.5</b>) Has Grasp the Void Ascension Perk",
+      "(×<b style='color:lime'>5.0</b>) One must be true<br/>    •   Has Government Civic: Eager Explorers<br/>    •   Has Government Civic: Privatized Exploration<br/>    •   Has Government Civic: Stargazers<br/>    •   Has Government Civic: Exploration Protocols",
+      "(×<b style='color:lime'>1.5</b>) The Guest outcome"
+    ],
+    "potential": [
+      "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
+    ],
+    "children": [],
+    "is_event": true,
+    "is_gestalt": false,
+    "source": "vanilla"
+  },
+  {
     "key": "tech_psionic_aura",
     "name": "Psionic Aura",
     "description": "Psionic emanations from the Shroud bring an entity's favor into corporeal reality. An empire attuned to a Shroud patron will emit a Psionic Aura from where their psionic populations are concentrated.",
@@ -2141,7 +2218,6 @@
     ],
     "weight_modifiers": [],
     "potential": [
-      "Has DLC Utopia",
       "Does NOT have Origin Wilderness"
     ],
     "children": [],
@@ -2689,8 +2765,8 @@
   },
   {
     "key": "tech_unique_mutation_restorative_enzymes",
-    "name": "RESTORATIVE_ENZYMES",
-    "description": "When this creature dies, a random creature in the fleet regains $@unique_mutation_restorative_enzymes_gain|0%$ of its Hull and Armor.",
+    "name": "Restorative Enzymes",
+    "description": "On death, the Tiyanki Matriarch produces an assortment of protective chemicals in a final attempt to preserve the lives of her remaining kin.",
     "area": "society",
     "base_factor": 1.0,
     "base_weight": 0.0,
@@ -2750,7 +2826,7 @@
   {
     "key": "tech_unique_mutation_starborne_biology",
     "name": "Starborne Biology",
-    "description": "A main source of energy for large creatures in deep space comes from the power of starlight. The closer they are to brighter stars, the faster they develop.",
+    "description": "Lifeforms infused with the genetic material of Voidspawn no longer need to feed, they simply absorb energy from starlight.",
     "area": "society",
     "base_factor": 1.0,
     "base_weight": 0.0,

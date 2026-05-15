@@ -1471,7 +1471,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.0</b>) All must be true<br/>&nbsp;&nbsp;•&nbsp; Has DLC Utopia<br/>&nbsp;&nbsp;•&nbsp; Does NOT have Biomorphosis Ascension Perk",
+                    "(×<b style='color:red'>0.0</b>) Does NOT have Biomorphosis Ascension Perk",
                     "(×<b style='color:lime'>1.25</b>) Has Hive Mind Authority",
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
@@ -7686,7 +7686,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.0</b>) All must be true<br/>&nbsp;&nbsp;•&nbsp; One must be true<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has DLC Utopia<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has DLC Shadows of the Shroud<br/>&nbsp;&nbsp;•&nbsp; All must be false<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Mind Over Matter Ascension Perk<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Origin Teachers of the Shroud<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Origin Endbringers<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; One must be true<br/>\t&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Government Civic: Chosen<br/>\t&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Government Civic: Chosen Many<br/>\t&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Government Civic: Apostle Network<br/>\t&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Government Civic: Chosen Executives<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; All must be true<br/>\t&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Origin Shroud-Forged<br/>\t&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Finished the Forged by the Shroud situation by supporting the Shroud",
+                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Mind Over Matter Ascension Perk<br/>    •   Has Origin Teachers of the Shroud<br/>    •   Has Origin Endbringers<br/>    •   One must be true<br/>\t    •   Has Government Civic: Chosen<br/>\t    •   Has Government Civic: Chosen Many<br/>\t    •   Has Government Civic: Apostle Network<br/>\t    •   Has Government Civic: Chosen Executives<br/>    •   All must be true<br/>\t    •   Has Origin Shroud-Forged<br/>\t    •   Finished the Forged by the Shroud situation by supporting the Shroud",
                 "(×<b style='color:red'>0.5</b>) No Leader in council has trait Expertise: Psionics 1",
                 "(×<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
                 "(×<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
@@ -7697,130 +7697,6 @@
                 "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
               ],
               "children": [
-                {
-                  "key": "tech_precognition_interface",
-                  "name": "Precognition Interface",
-                  "description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analyzing the impulses of telepathic operatives before they are cognitively processed.",
-                  "area": "society",
-                  "base_factor": 0.5,
-                  "base_weight": 20.0,
-                  "category": "Psionics",
-                  "cost": 10000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Precognitive Combat Instincts",
-                    "<b>Component</b>: Precognitive Interface"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": true,
-                  "is_start_tech": false,
-                  "prerequisites": [
-                    "tech_telepathy"
-                  ],
-                  "tier": 4,
-                  "prerequisites_names": [
-                    {
-                      "name": "Telepathy",
-                      "key": "tech_telepathy"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×<b style='color:red'>0.0</b>) Has DLC Utopia",
-                    "(×<b style='color:red'>0.5</b>) No Leader in council has trait Expertise: Psionics 1",
-                    "(×<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
-                    "(×<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
-                    "(×<b style='color:lime'>3.0</b>) All must be true<br/>&nbsp;&nbsp;•&nbsp; Does NOT have DLC Galactic Paragons<br/>&nbsp;&nbsp;•&nbsp; Any owned Leader:<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has trait Shroudwalker Teacher",
-                    "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3"
-                  ],
-                  "potential": [
-                    "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
-                  ],
-                  "children": [
-                    {
-                      "key": "tech_psi_jump_drive_1",
-                      "name": "Psi Jump Drive",
-                      "description": "The Psi Jump Drive harnesses the psi energies emitted by the crew to force the vessel through the very fabric of reality, instantly \"jumping\" vast distances.",
-                      "area": "society",
-                      "base_factor": 0.1,
-                      "base_weight": 2.5,
-                      "category": "Psionics",
-                      "cost": 20000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Psi Jump Drive",
-                        "<b>Component</b>: Psionic Jump Organ",
-                        "<b>Feature : </b>Jump Drive Travel"
-                      ],
-                      "is_dangerous": true,
-                      "is_rare": true,
-                      "is_start_tech": false,
-                      "prerequisites": [
-                        "tech_precognition_interface"
-                      ],
-                      "tier": 5,
-                      "prerequisites_names": [
-                        {
-                          "name": "Precognition Interface",
-                          "key": "tech_precognition_interface"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×<b style='color:red'>0.0</b>) One must be true<br/>    •   Has DLC Utopia<br/>    •   Has DLC Shadows of the Shroud",
-                        "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Any Leader in council has trait Expertise: Psionics 1<br/>    •   Any Leader in council has trait Curator 1<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
-                        "(×<b style='color:lime'>1.5</b>) Has Grasp the Void Ascension Perk",
-                        "(×<b style='color:lime'>5.0</b>) One must be true<br/>    •   Has Government Civic: Eager Explorers<br/>    •   Has Government Civic: Privatized Exploration<br/>    •   Has Government Civic: Stargazers<br/>    •   Has Government Civic: Exploration Protocols",
-                        "(×<b style='color:lime'>1.5</b>) The Guest outcome"
-                      ],
-                      "potential": [
-                        "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
-                      ],
-                      "children": [
-                        {
-                          "key": "tech_cloaking_psi",
-                          "name": "Psi-Phase Field Generator",
-                          "description": "Psi-Phase Field Generators focus the psionic potential of the ship's crew to partially phase the vessel into the Shroud. This allows the ship to remain undetected by all but the best sensor arrays, though what the crew may be forced to witness is better left unsaid.",
-                          "area": "society",
-                          "base_factor": 1.0,
-                          "base_weight": 25.0,
-                          "category": "Psionics",
-                          "cost": 24000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Psi-Phase Field Generator"
-                          ],
-                          "is_dangerous": false,
-                          "is_rare": true,
-                          "is_start_tech": false,
-                          "prerequisites": [
-                            "tech_psi_jump_drive_1"
-                          ],
-                          "tier": 5,
-                          "prerequisites_names": [
-                            {
-                              "name": "Psi Jump Drive",
-                              "key": "tech_psi_jump_drive_1"
-                            }
-                          ],
-                          "weight_modifiers": [
-                            "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Any Leader in council has trait Expertise: Psionics 1<br/>    •   Any Leader in council has trait Curator 1<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
-                            "(×<b style='color:lime'>5.0</b>) Has Subterfuge Traditions Tradition"
-                          ],
-                          "potential": [
-                            "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic",
-                            "Has DLC First Contact Story Pack"
-                          ],
-                          "children": [],
-                          "is_event": false,
-                          "is_gestalt": false,
-                          "source": "vanilla"
-                        }
-                      ],
-                      "is_event": false,
-                      "is_gestalt": false,
-                      "source": "vanilla"
-                    }
-                  ],
-                  "is_event": false,
-                  "is_gestalt": false,
-                  "source": "vanilla"
-                },
                 {
                   "key": "tech_thought_enforcement",
                   "name": "Thought Enforcement",
@@ -7856,6 +7732,47 @@
                     "(×<b style='color:lime'>3.0</b>) All must be true<br/>&nbsp;&nbsp;•&nbsp; Does NOT have DLC Galactic Paragons<br/>&nbsp;&nbsp;•&nbsp; Any owned Leader:<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has trait Shroudwalker Teacher",
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
                     "(×<b style='color:lime'>2.0</b>) All must be true<br/>&nbsp;&nbsp;•&nbsp; Has DLC Shadows of the Shroud<br/>&nbsp;&nbsp;•&nbsp; Has Gestalt Consciousness Ethic"
+                  ],
+                  "potential": [
+                    "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "is_gestalt": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_precognition_interface",
+                  "name": "Precognition Interface",
+                  "description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analyzing the impulses of telepathic operatives before they are cognitively processed.",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 20.0,
+                  "category": "Psionics",
+                  "cost": 10000,
+                  "feature_unlocks": [
+                    "<b>Component</b>: Precognitive Combat Instincts",
+                    "<b>Component</b>: Precognitive Interface"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_telepathy"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "Telepathy",
+                      "key": "tech_telepathy"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.5</b>) No Leader in council has trait Expertise: Psionics 1",
+                    "(×<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
+                    "(×<b style='color:lime'>3.0</b>) Has Fanatic Spiritualist Ethic",
+                    "(×<b style='color:lime'>3.0</b>) All must be true<br/>&nbsp;&nbsp;•&nbsp; Does NOT have DLC Galactic Paragons<br/>&nbsp;&nbsp;•&nbsp; Any owned Leader:<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has trait Shroudwalker Teacher",
+                    "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3"
                   ],
                   "potential": [
                     "One must be true\n    •   Has DLC Shadows of the Shroud\n    •   Does NOT have Gestalt Consciousness Ethic"

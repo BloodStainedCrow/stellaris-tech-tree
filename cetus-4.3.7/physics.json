@@ -3519,7 +3519,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.0</b>) All must be true<br/>&nbsp;&nbsp;•&nbsp; One must be true<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has DLC Utopia<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has DLC The Machine Age<br/>&nbsp;&nbsp;•&nbsp; All must be false<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has The Flesh is Weak Ascension Perk<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Organo-Machine Interfacing Ascension Perk<br/>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp; Has Organo-Machine Interfacing Ascension Perk",
+                    "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has The Flesh is Weak Ascension Perk<br/>    •   Has Organo-Machine Interfacing Ascension Perk<br/>    •   Has Organo-Machine Interfacing Ascension Perk",
                     "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Any Leader in council has trait Expertise: Computing 1<br/>    •   Any Leader in council has trait Curator 1"
                   ],
                   "potential": [
@@ -4239,8 +4239,8 @@
           "name": "Quantum Catapult",
           "description": "A Quantum Catapult harnesses the power of a Neutron Star or Pulsar to twist the fabric of space, skipping a fleet across great distances.",
           "area": "physics",
-          "base_factor": 0.25,
-          "base_weight": 12.5,
+          "base_factor": 2.0,
+          "base_weight": 100.0,
           "category": "Particles",
           "cost": 8000,
           "feature_unlocks": [
@@ -4261,7 +4261,6 @@
             "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Maniacal 1<br/>    •   Any Leader in council has trait Maniacal 2<br/>    •   Any Leader in council has trait Maniacal 3",
             "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Any Leader in council has trait Spark of Genius 1<br/>    •   Any Leader in council has trait Spark of Genius 2",
             "(×<b style='color:lime'>4.0</b>) One must be true<br/>    •   Has Megastructure Quantum Catapult Single Array<br/>    •   Has Megastructure Quantum Catapult Twin Arrays<br/>    •   Has Megastructure Quantum Catapult<br/>    •   Has Megastructure Quantum Catapult<br/>    •   Has Megastructure Quantum Catapult Twin Arrays<br/>    •   Has Megastructure Ruined Quantum Catapult<br/>    •   Has Megastructure Ruined Quantum Catapult",
-            "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
             "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
             "(×<b style='color:lime'>1.5</b>) Has Grasp the Void Ascension Perk",
             "(×<b style='color:lime'>5.0</b>) One must be true<br/>    •   Has Government Civic: Eager Explorers<br/>    •   Has Government Civic: Privatized Exploration<br/>    •   Has Government Civic: Stargazers<br/>    •   Has Government Civic: Exploration Protocols"
